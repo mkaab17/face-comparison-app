@@ -1,8 +1,15 @@
 streamlit==1.32.2
+
+# Core ML
+tensorflow-cpu==2.15.0
+keras==2.15.0
+numpy<2
+
+# DeepFace
 deepface==0.0.96
-tensorflow==2.15.0
-opencv-python-headless
-numpy
+
+# Image & utils
+opencv-python-headless==4.8.1.78
 pandas
 Pillow
 gdown
